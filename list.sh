@@ -1,0 +1,1 @@
+maxadmin -pmariadb list servers

@@ -74,6 +74,7 @@ port=6603
 # Start the Server block
 EOF
 
+
 # add the [server] block
 for i in ${!backend_servers[@]}; do
 cat <<EOF >> $config_file

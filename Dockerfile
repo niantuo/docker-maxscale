@@ -5,7 +5,7 @@ MAINTAINER 976056042@qq.com
 
 # We set some defaults for config creation. Can be overwritten at runtime.
 ENV MAXSCALE_VERSION 2.1.16
-ENV MAXSCALE_URL https://downloads.mariadb.com/enterprise/yzsw-dthq/mariadb-maxscale/2.0.1/rhel/7/x86_64/maxscale-2.0.1-1.rhel.7.x86_64.rpm
+ENV MAXSCALE_URL https://downloads.mariadb.com/MaxScale/${MAXSCALE_VERSION}/rhel/7/x86_64/maxscale-${MAXSCALE_VERSION}-1.rhel.7.x86_64.rpm
 ENV MAX_THREADS=4 \
     MAX_USER="maxscale" \
     MAX_PASS="maxscalepass" \
